@@ -1,0 +1,367 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+}
+header{
+	display: none;
+}
+#home .link-home a, #requests .link-requests a, #messages .link-messages a, #notifications .link-notifications a, #search .link-search a, #menu .link-menu a{
+	color: #fff;
+	background: #243c6d;
+}
+/***home***/
+#home{
+	background: #e9ebee;
+}
+.avatar{
+	display: none;
+}
+/**Seciones de Home**/
+.publicaciones{
+	display: none;
+}
+@media (max-width: 768px){
+header{
+	background: #3b5998;
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	width: 100%;
+
+}
+.menu li a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 11px 28px;
+	color: rgba(0, 0, 0, .5);
+
+}
+.menu li a span{
+	font-size: 25px;
+	margin: auto;
+	align-items: center;
+}
+.avatar{
+	width: 98%;
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+.perfil{
+	display: flex;
+	width: 48%;
+	border-top: 1px solid rgba(0, 0, 0, .2);
+	margin: 0 auto;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	padding-bottom: 15px;
+}
+.perfil img{
+	width:40px;
+	height: 40px;
+	margin: 5px 0 0 12px;
+}
+.perfil input{
+	background: #fff;
+	width: 90%;
+}
+.publicar{
+	display: block;
+	margin-top: 8px;
+	width: 98%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+.publicar .icon-users{
+	margin-left: 3px;
+	padding: 5px 5px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.icon-triangle-down{
+	border-radius: 10px;
+	padding: 5px 5px;
+	margin-top: 6px;
+}
+.publicar button{
+	border: none;
+	background: #fff;
+	margin-top: -6px;
+	float: right;
+}
+ .publicar .btn-publicar{
+	background: #4267b2;
+	border-color: #4267b2;
+	padding: 5px 20px;
+	border-radius: 5px;
+	float: right;
+}
+.publicar .btn-publicar a{
+	text-decoration: none;
+	color: white;
+}
+.option{
+	padding-bottom: 7px;
+}
+.option ul {
+	display: flex;
+	list-style: none;
+}
+.option ul li{
+	display: flex;
+	padding: 3px 10px;
+	margin-top: 5px;
+
+}
+.border-option{
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	margin-left: -20px;
+}
+.option ul li a{
+	text-decoration: none;
+	color: #000;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 13px;
+}
+.option ul li a span{
+	margin-right: 5px;
+	align-items: center;
+	margin-top: 3px;
+	padding: 2px;
+	border-radius: 2px;
+}
+.icon-image{
+	background: orange;
+	color: #fff;
+}
+.icon-location{
+	background: pink;
+	color: #fff;
+	padding: 2px;
+	border-radius: 2px;
+}
+.icon-emoji-happy{
+	background: blue;
+	color: #fff;
+	padding: 2px;
+	border-radius: 2px;
+}
+.perfil{
+	display: flex;
+	width: 96%;
+	border-top: 1px solid rgba(0, 0, 0, .2);
+	margin: 0 auto;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	padding-bottom: 15px;
+}
+.perfil img{
+	width:40px;
+	margin: 5px 0 0 12px;
+}
+.perfil input{
+	background: #fff;
+}
+.publicar{
+	display: block;
+	margin-top: 8px;
+	width: 98%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+.publicar .icon-users{
+	margin-left: 3px;
+	padding: 5px 5px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.icon-triangle-down{
+	border-radius: 10px;
+	padding: 5px 5px;
+	margin-top: 6px;
+}
+.publicar button{
+	border: none;
+	background: #fff;
+	margin-top: -6px;
+	float: right;
+}
+ .publicar .btn-publicar{
+	background: #4267b2;
+	border-color: #4267b2;
+	padding: 5px 20px;
+	border-radius: 5px;
+	float: right;
+}
+.publicar .btn-publicar a{
+	text-decoration: none;
+	color: white;
+}
+/**Seciones de Home**/
+.publicaciones{
+	width: 98%;
+	margin-top: 6px;
+	background: #fff;
+	display: block;
+	margin: 6px auto;
+}
+.publicaciones .perfil-publicacion{
+	border-bottom: 2px solid rgba(0, 0, 0, .2);
+	padding-bottom: 10px;
+}
+.publicaciones .perfil-publicacion img{
+	padding: 5px 0px 0 12px;
+	width:50px;
+
+}
+.publicaciones .perfil-publicacion .nombre-perfil{
+	font-weight: bold;
+	font-size: 15px;
+	font-family: arial;
+	margin-left: 60px;
+	margin-top: -40px;
+}
+.publicaciones .perfil-publicacion .estado-perfil{
+	font-size: 15px;
+	font-family: arial;
+	font-weight: none;
+	margin-left: 183px;
+	margin-top: -17px;
+}
+.publicaciones .perfil-publicacion .estado-nombre-perfil-corto{
+	margin-left: 170px; 
+}
+.publicaciones .perfil-publicacion .time-post{
+	margin-left: 60px;
+	margin-top: 2px;
+	font-size: 13px;
+	color: rgba(0, 0, 0, .5);
+}
+.publicaciones .perfil-publicacion .time-post span{
+	align-items: center;
+	font-size: 12px;
+}
+.icon-chevron-thin-down{
+	margin-top: -10px;
+	margin-right: 10px;
+	float: right;
+}
+.publicacion{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.publicacion span{
+	color: green;
+}
+.foto-publicacion{
+	width: 98%;
+}
+.foto-publicacion img{
+	width: 470px;
+	border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+.numero-megusta{
+	margin-left: 5px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.numero-megusta img{
+	width: 18px;
+}
+.personas-megusta{
+	font-family: arial;
+	margin-left: 70px;
+	font-size: 12px;
+	margin-top: -20px;
+	color: rgba(0, 0, 0, .5);
+}
+.megusta-dosreacciones{
+	margin-left: 50px;
+}
+.megusta-cuatroreacciones{
+	margin-left: 90px;
+}
+.personas-comentarios{
+	font-family: arial;
+	margin-left: 350px;
+	font-size: 12px;
+	margin-top: -13px;
+	margin-left: 370px;
+	color: rgba(0, 0, 0, .5);
+}
+.reacciones{
+	width: 100%;
+	display: flex;
+	margin-top: 4px;
+	padding-bottom: 3px;
+	background: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.reacciones ul{
+	display: flex;
+	list-style: none;
+	width: 98%;
+}
+.reacciones ul li{
+	padding: 5px 15px;
+}
+.reacciones ul li a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: rgba(0, 0, 0, .6);
+	font-family: arial;
+	margin-left: 6px;
+}
+.reacciones ul li a span{
+	margin-left: 7px;
+	font-size: 15px;
+}
+.border-reaccion{
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	padding: 3px 1px;
+}
+/***Search***/
+form{
+	width: 98%;
+	margin: 0 auto;
+	background: #e9ebee;
+	margin-top: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+input{
+	width: 90%;
+	margin-top: 2px;
+	border: none;
+	background: #e9ebee;
+	margin-left: 5px;
+}
+.icon-magnifying-glass{
+	margin-left: 5px;
+	align-items: center;
+}
+
+}
